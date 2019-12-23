@@ -1,0 +1,16 @@
+{
+    "name": "bolohori/wordpress-starter-plugins",
+    "description": "",
+    "keywords": ["wordpress", "plugin"],
+    "homepage": "https://github.com/bolohori/wordpress-starter-plugins",
+    "authors": [
+      {
+        "name": "Horia Bologan",
+        "homepage": "https://github.com/bolohori/wordpress-starter-plugins"
+      }
+    ],
+    "type": "wordpress-plugin",
+    "require": {
+      "php": ">=5.6"
+    }
+  }
