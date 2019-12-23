@@ -15,7 +15,6 @@ Add all of your plugin's files to Git.
 
 ```
 $ git add .
-
 ```
 
 Commit your changes
@@ -24,7 +23,6 @@ Commit your changes
 
 ```
 $ git commit .
-
 ```
 
 Tag the release
@@ -38,14 +36,12 @@ Example : if pushing SearchWP version 2.9.14. That means you will be creating th
 
 ```
 git tag 2.9.14
-
 ```
 
 Push your changes, and your tags to GitHub:
 
 ```
 $ git push --tags
-
 ```
 
 > **Tip:** Tags pushed to GitHub will automatically be turned into "Releases," a feature of GitHub. You can also [create releases](https://help.github.com/articles/creating-releases/) manually on the GitHub website.
@@ -70,7 +66,6 @@ In your site's `composer.json`
   ...
 
   ],
-
 ```
 
 -   Add your plugin to the `require` section using the version number you named your `release` after:
@@ -85,5 +80,4 @@ In your site's `composer.json`
   ...
 
   },
-
 ```
